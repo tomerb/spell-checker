@@ -1,0 +1,14 @@
+Spell-Checker by Tomer Barletz.
+
+Build instructions
+------------------
+* Type 'make' to create a shared library that can be linked with an app.
+* Type 'make test' to build and link a test app with the library. Run this test
+  app by exporting the library path to the current directory (export
+  LD_LIBRARY_PATH=.), and running the executable test_spellcheck.
+
+TODO
+----
+* See TODO comments in the code.
+* Need more testing. Much more testing. Right now there is a simple app that
+  is utilizing the basic funcionality.
